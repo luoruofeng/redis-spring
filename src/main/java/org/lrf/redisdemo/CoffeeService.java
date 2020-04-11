@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CoffeeService {
 
-	@Autowired
+	@Resource
 	private RedisTemplate<String, Object> redisTemplate;
 	
 	@PostConstruct
